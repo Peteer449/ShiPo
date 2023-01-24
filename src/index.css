@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.azul-oceano{
+  color: #2a2a72;
+}
+.bg-azul-oceano{
+  background-color: #2a2a72;
+}
+.piel{
+  color: #f4c095;
+}
+.bg-piel{
+  background-color: #f4c095;
+}
+.blanco-opaco{
+  color: #efeae1;
+}
+.bg-blanco-opaco{
+  background-color: #efeae1;
+}
+.negro-carbon{
+  color: #1d1d1b;
+}
+.bg-negro-carbon{
+  background-color: #1d1d1b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.font-gilda{
+  font-family: 'Gilda Display', serif;
 }
