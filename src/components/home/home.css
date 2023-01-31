@@ -1,0 +1,82 @@
+/* .image{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+} */
+.wrapper {
+    height:100vh;
+    background-image: url("./image-banner.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.regalate-el-cuidado{
+  opacity:0.95;
+  margin: 16px;
+}
+.regalate-el-cuidado-title{
+  font-size: 30px;
+}
+.regalate-el-cuidado-text{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hablamos{
+  width: 90%;
+  margin: 60vh 5% 25vh 5%;
+  height: fit-content;
+}
+.hablamos-text{
+  height: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  align-self: center;
+}
+
+.masajes-y-electrodos-image{
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 7%;
+}
+
+.masajes-y-electrodos-btn{
+  background-color: transparent;
+  border: 2px solid #f4c095;
+  font-weight: 600;
+  font-size: 18px;
+  width: 90%;
+  margin:2% 0 2% 5%;
+  padding: 10px;
+}
+
+.perfil-especialista-title{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.perfil-especialista-text{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.reseñas-title{
+  font-size: 30px;
+}
+
+.reseñas-carousel{
+  background-color: #EFEAE1;
+  min-height: 250px;
+}
+
+.reseñas-carousel-title{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.reseñas-carousel-text{
+  font-size: 18px;
+}
