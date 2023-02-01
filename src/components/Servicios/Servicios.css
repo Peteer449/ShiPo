@@ -1,0 +1,73 @@
+.servicios{
+    width: 360px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenServicio{
+    margin-top: 32px;
+}
+.tituloServicio{
+    margin: 32px 0px;
+    width: 328px;
+    text-align: center;
+    padding: 12px;
+    color: #2A2A72;
+    border: 2px solid #F4C095;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.descripcionServicio{
+    margin: 0;
+    text-align: center;
+    width: 328px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1D1D1B;
+}
+.duracionServicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0px;
+}
+.duracion{
+    margin:0px;
+    padding: 8px;
+    font-size: 18px;
+    color: #1D1D1B;
+}
+.duracion span{
+    font-weight:600 ;
+}
+.textoServicios{
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    color: #1D1D1B;
+}
+.reserva{
+    margin: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A2A72;
+    border-radius: 5px;
+    width: 328px;
+    padding: 12px;
+}
+.reserva h4{
+    margin: 0 20px 0 0;
+    color: #FFFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
