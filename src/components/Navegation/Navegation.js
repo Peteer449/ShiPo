@@ -20,7 +20,7 @@ export default function Navegation(){
           <Link to='/'>
             <Navbar.Brand><img src={Logo} alt='logo de Shipo' className="logo"/></Navbar.Brand>
           </Link>  
-          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'xxl'}`} />
+          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'xxl'}`} variant="light" />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${'xxl'}`}
             aria-labelledby={`offcanvasNavbarLabel-expand-${'xxl'}`}

@@ -1,3 +1,12 @@
+.navbar-light .navbar-toggler {
+    border-color:#2A2A72;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../../images/icon-menu.svg");
+}
+.btn-close{
+    background-image:url("../../images/icon-close.svg") ;
+}
 .barraNav{
     background-color: #2A2A72;
 }
