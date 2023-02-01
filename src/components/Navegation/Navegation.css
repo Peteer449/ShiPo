@@ -1,0 +1,42 @@
+.barraNav{
+    background-color: #2A2A72;
+}
+.barraNavDerecha{
+    background-color: #1D1D1B;
+    width: 270px;
+}
+.link{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+    color: #F4C095;
+    text-decoration: none;
+    padding: 10px;
+}
+.link:hover{
+    color: #FFFF;
+    
+}
+.dropdown-item{
+    margin-right: 0;
+    width: 220px;
+    height: fit-content;
+}
+.linkBlanco{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.tituloNav{
+    color: #FFFF;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+}
+.dropdown-menu{
+    background-color: #1D1D1B;
+}
