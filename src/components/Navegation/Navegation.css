@@ -36,8 +36,7 @@
     margin: 16px;
 }
 .linkColor:hover{
-    color: #FFFF;
-    
+    color: #37C7DB;
 }
 .linkBlanco{
     font-weight: 400;
@@ -46,9 +45,15 @@
     text-decoration: none;
     color: #FFFF;
 }
+.linkBlanco:hover{
+    color:#37C7DB ;
+}
 .dropdown-item{
     text-align: right;
     padding: 16px 0;
+}
+.dropdown-item:hover{
+    background-color: #1D1D1B;
 }
 .linkUbicacion{
     font-weight: 400;
