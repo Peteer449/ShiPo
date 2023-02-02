@@ -12,40 +12,54 @@
 }
 .barraNavDerecha{
     background-color: #1D1D1B;
-    width: 270px;
 }
-.link{
-    font-weight: 600;
-    font-size: 18px;
-    text-align: right;
-    color: #F4C095;
-    text-decoration: none;
-    padding: 10px;
+.navbar-nav{
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
-.link:hover{
-    color: #FFFF;
-    
+.dropdown-menu{
+    background-color: #1D1D1B;
 }
-.dropdown-item{
-    margin-right: 0;
-    width: 220px;
-    height: fit-content;
-}
-.linkBlanco{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: right;
-    text-decoration: none;
-    color: #FFFF;
-}
-
 .tituloNav{
     color: #FFFF;
     font-weight: 600;
     font-size: 18px;
     text-align: right;
+    margin: 16px;
 }
-.dropdown-menu{
-    background-color: #1D1D1B;
+.linkColor{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+    color: #F4C095;
+    text-decoration: none;
+    margin: 16px;
+}
+.linkColor:hover{
+    color: #FFFF;
+    
+}
+.linkBlanco{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFF;
+}
+.dropdown-item{
+    text-align: right;
+    padding: 16px 0;
+}
+.linkUbicacion{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFF;
+    margin: 32px 16px 0 0;
+}
+.dropdown-divider{
+    color:#F4C095;
+    width: 200px;
+    margin-top: 16px;
 }

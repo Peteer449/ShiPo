@@ -37,40 +37,40 @@ export default function Navegation(){
                 <NavDropdown
                   title="Masajes"
                   id={`offcanvasNavbarDropdown-expand-${'xxl'}`}
-                  className='link'
+                  className='linkColor'
                   bg='dark'
                 >
                   <NavDropdown.Item >
-                    <NavLink to="/masajes/descontracturantes" className='linkBlanco'>Masajes descontracturantes</NavLink>
+                    <NavLink to="/masajes/descontracturantes" className='linkBlanco'>Masajes <br/>descontracturantes</NavLink>
                   </NavDropdown.Item>
                   <NavDropdown.Item >
-                    <NavLink to='/masajes/piedras_calientes' className='linkBlanco'>Masajes descontracturantes + piedras calientes</NavLink>
+                    <NavLink to='/masajes/piedras_calientes' className='linkBlanco'>Masajes <br/> descontracturantes<br/> + piedras calientes</NavLink>
                   </NavDropdown.Item>
                   <NavDropdown.Item >
-                    <NavLink to='/masajes/maderoterapia' className='linkBlanco'>Masajes con maderoterapia</NavLink>
+                    <NavLink to='/masajes/maderoterapia' className='linkBlanco'>Masajes con <br/>maderoterapia</NavLink>
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
                   title="Electrodos"
                   id={`offcanvasNavbarDropdown-expand-${'xxl'}`}
-                  className='link'
+                  className='linkColor'
                 >
                   <NavDropdown.Item>
                     <NavLink to='/electrodos/sesiones' className='linkBlanco'>Sesiones de electrodos</NavLink>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <NavLink to='/electrodos/levantamiento_de_gluteos' className='linkBlanco'>Levantamiento de glúteos + electrodos</NavLink>
+                    <NavLink to='/electrodos/levantamiento_de_gluteos' className='linkBlanco'>Levantamiento de <br/>glúteos + electrodos</NavLink>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <NavLink to='/electrodos/reductores' className='linkBlanco'>Masajes reductores + electrodos</NavLink>
+                    <NavLink to='/electrodos/reductores' className='linkBlanco'>Masajes reductores + <br/>electrodos</NavLink>
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavLink to='/drenaje_linfatico' className='link'>Drenaje Linfático</NavLink>
-                <NavLink to='/belleza_manos_pies' className='link'>Belleza de manos y pies</NavLink>
-                <NavLink to='/esmalte_semipermanente' className='link'>Esmalte semipermanente</NavLink>
-                <NavLink to='/depilacion_laser_definitiva' className='link'>Depilación láser definitiva</NavLink>
+                <NavLink to='/drenaje_linfatico' className='linkColor'>Drenaje Linfático</NavLink>
+                <NavLink to='/belleza_manos_pies' className='linkColor'>Belleza de manos <br/>y pies</NavLink>
+                <NavLink to='/esmalte_semipermanente' className='linkColor'>Esmalte <br/>semipermanente</NavLink>
+                <NavLink to='/depilacion_laser_definitiva' className='linkColor'>Depilación láser <br/>definitiva</NavLink>
                 <NavDropdown.Divider/>
-                <NavLink className='linkBlanco'>Ubicación</NavLink>
+                <NavLink className='linkUbicacion'>Ubicación</NavLink>
               </Nav>  
             </Offcanvas.Body>
           </Navbar.Offcanvas>
