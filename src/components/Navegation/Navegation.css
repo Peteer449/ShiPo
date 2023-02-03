@@ -51,6 +51,7 @@
 .dropdown-item{
     text-align: right;
     padding: 16px 0;
+    
 }
 .dropdown-item:hover{
     background-color: #1D1D1B;
