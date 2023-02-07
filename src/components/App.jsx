@@ -34,9 +34,9 @@ function App() {
           <Route path='/drenaje_linfatico' element={<Servicios imagen={DrenajeLinfatico} titulo="Drenaje linfático" 
           descripcion="lorem ipsum"/>}/>
           <Route path='/belleza_manos_pies' element={<Servicios imagen={ManosPies} titulo="Belleza de manos y pies" 
-          descripcion="lorem ipsum"/>}/>
+          descripcion="¿Puede haber algo mejor que tener las uñas de las manos fabulosas? ¡Sí! Tener las uñas de las manos y de los pies más que fabulosas. Si te gustá estar como una reina no dudés en contactarnos y pedir tu cita. Vos merecés que te consientan y que te hagan sentir única."/>}/>
           <Route path='/esmalte_semipermanente' element={<Servicios imagen={Esmalte} titulo="Esmalte semipermanente" 
-          descripcion="lorem ipsum"/>}/>
+          descripcion="Que tus uñas estén siempre lindas para la ocasión. Un esmalte semipermanente te brinda espontaneidad y delicadeza. Con una duración entre 2 y 3 semanas, además muy fácil de remover. ¿Qué color te gustaría lucir esta vez? Escribinos a nuestro chat y contanos."/>}/>
           <Route path='/depilacion_laser_definitiva' element={<Servicios imagen={Laser} titulo="Depilación láser definitiva" 
           descripcion="lorem ipsum"/>}/>
         </Routes>
