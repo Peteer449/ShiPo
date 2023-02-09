@@ -11,7 +11,7 @@ export default function Footer(){
       <Logo/>
       <p className="col-12 text-center text-light direccion">Dirección: Lorem ipsum dolor sit
 ipsum dolor sit</p>
-      <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <ul className="nav col-md-4 justify-content-center list-unstyled d-flex">
         <li className="ms-3"><a className="text-light" href="#"><IconFacebook/></a></li>
         <li className="ms-3"><a className="text-light" href="#"><IconTikTok/></a></li>
         <li className="ms-3"><a className="text-light" href="#"><IconInstagram/></a></li>

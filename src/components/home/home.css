@@ -1,16 +1,16 @@
-/* .image{
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  position: absolute;
-  z-index: -1;
-} */
 .wrapper {
     height:100vh;
+    padding-top: 2vh;
     background-image: url("./image-banner.jpg");
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
+}
+
+.vector-down{
+  position: absolute;
+  top: 65%;
+  left: 48.45%;
 }
 
 .regalate-el-cuidado{
@@ -27,7 +27,7 @@
 
 .hablamos{
   width: 90%;
-  margin: 60vh 5% 25vh 5%;
+  margin: 55vh 5% 25vh 5%;
   height: fit-content;
 }
 .hablamos-text{
@@ -37,10 +37,20 @@
   align-self: center;
 }
 
+.masajes-y-electrodos-title{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+}
+
 .masajes-y-electrodos-image{
   width: 90%;
   margin-left: 5%;
   margin-bottom: 7%;
+}
+
+.masajes-y-electrodos-image-desktop{
+  display: none;
 }
 
 .masajes-y-electrodos-btn{
@@ -79,4 +89,83 @@
 
 .reseñas-carousel-text{
   font-size: 18px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("./vector-left.svg") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("./vector-right.svg") !important;
+}
+
+
+@media (min-width:768px){
+  .regalate-el-cuidado{
+    margin: 0 10%;
+  }
+  .regalate-el-cuidado-title{
+    padding-top:10px;
+  }
+  .regalate-el-cuidado-text{
+    padding-bottom:10px;
+  }
+  .hablamos{
+    width: 70%;
+    margin: 65vh 15% 25vh 15%;
+  }
+  .wrapper {
+    padding-top: 4vh;
+  }
+  .masajes-y-electrodos-image{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .masajes-y-electrodos-btn{
+    width: 70%;
+    margin:2% 0 2% 15%;
+  }
+  .reseñas-carousel-text{
+    padding: 0 25%;
+  }
+}
+
+@media (min-width:1200px){
+  .regalate-el-cuidado{
+    margin: 0 15%;
+  }
+  .regalate-el-cuidado-title{
+    padding-top:30px;
+  }
+  .regalate-el-cuidado-text{
+    padding-bottom:30px;
+  }
+  .hablamos{
+    width: 30%;
+    margin: 65vh 35% 25vh 35%;
+  }
+  .masajes-y-electrodos-image{
+    display: none;
+  }
+  .masajes-y-electrodos-image-desktop{
+    display:block;
+  }
+  .masajes-y-electrodos-title{
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .masajes-y-electrodos-btn{
+    width: 25%;
+    margin:2%;
+    font-size: 24px;
+  }
+  .perfil-especialista-title{
+    font-size: 48px;
+  }
+  .perfil-especialista-text{
+    font-size: 20px;
+  }
+  .reseñas-title{
+    font-size: 48px;
+  }
 }
