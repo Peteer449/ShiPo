@@ -14,7 +14,6 @@
     margin: 32px 0px;
     width: 328px;
     text-align: center;
-    padding: 12px;
     color: #2A2A72;
     font-weight: 600;
     font-size: 18px;
@@ -23,6 +22,7 @@
     margin: 0;
     text-align: center;
     width: 328px;
+    padding-bottom: 10px;
     font-weight: 400;
     font-size: 18px;
     color: #1D1D1B;
@@ -33,7 +33,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin: 32px 0px;
+    margin-bottom: 32px;
 }
 .duracion{
     margin:0px;

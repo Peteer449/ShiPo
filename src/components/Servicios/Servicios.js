@@ -8,7 +8,10 @@ export default function Servicios(props){
         <div className="servicios">  
             <img src={props.imagen} className='imagenServicio'/>
             <h3 className="tituloServicio">{props.titulo}</h3>
-            <p className="descripcionServicio">{props.descripcion}</p>
+            <p className="descripcionServicio">{props.parrafoUno}</p>
+            <p className="descripcionServicio">{props.parrafoDos}</p>
+            <p className="descripcionServicio">{props.parrafoTres}</p>
+            <p className="descripcionServicio">{props.parrafoCuatro}</p>
             <div className="duracionServicio">
                 <img src={LogoDuracion} alt='imagen de reloj' className="logoReloj"/>
                 <p className="duracion"><span>Duración:</span> de 45 a 75 min</p>
