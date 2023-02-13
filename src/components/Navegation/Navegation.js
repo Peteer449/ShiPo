@@ -31,7 +31,7 @@ export default function Navegation(){
             id={`offcanvasNavbar-expand-${'false'}`}
             aria-labelledby={`offcanvasNavbarLabel-expand-${'false'}`}
             placement="end"
-            className='barraNavDerecha'
+            className='barraNavDerecha w-auto'
             restoreFocus={false}
             show={menuOpen}
             onHide={handleClose}
@@ -40,7 +40,7 @@ export default function Navegation(){
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${'false'}`}>
               </Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body>
+            <Offcanvas.Body className="offcanvasBody">
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <h3 className="tituloNav">Servicios</h3>
                 <NavDropdown

@@ -72,3 +72,11 @@
 .logo-desktop{
     margin-left: 80px;
 }
+.offcanvasBody{
+    width: 268px;
+}
+@media only screen and (min-width:992px){
+    .offcanvasBody{
+        width: 350px;
+    } 
+}
