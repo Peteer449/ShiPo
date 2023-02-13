@@ -19,10 +19,13 @@ export default function Navegation(){
   return(
     <>
       <Navbar key={'false'} expand={'false'} className="mb-3 barraNav">
-        <Container fluid >
-          <Link to='/'>
-            <Navbar.Brand><img src={Logo} alt='logo de Shipo' className="logo"/></Navbar.Brand>
-          </Link>  
+        <Container fluid>
+          <Link to='/' className="d-md-block d-lg-none">
+            <Navbar.Brand ><img src={Logo} alt='logo de Shipo' className="logo-mobile"/></Navbar.Brand>
+          </Link>
+          <Link to='/' className="d-none d-lg-block mx-auto">
+            <Navbar.Brand ><img src={Logo} alt='logo de Shipo' className="logo-desktop"/></Navbar.Brand>
+          </Link>   
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'false'}`} variant="light" onClick={toggleMenu}/>
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${'false'}`}

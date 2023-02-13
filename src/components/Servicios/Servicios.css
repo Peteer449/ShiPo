@@ -69,7 +69,7 @@
     font-weight: 600;
     font-size: 18px;
 }
-@media only screen and (min-width:814px){
+@media only screen and (min-width:992px){
     .servicios{
         width: 814px;
     }
@@ -100,6 +100,26 @@
     .imagenServicio{
         width: 814px;
         height: 397px;
+    }
+}
+@media only screen and (max-width:360px){
+    .servicios{
+        width: fit-content;
+    }
+    .imagenServicio{
+        width: 280px;
+    }
+    .tituloServicio{
+        margin: 32px 0px;
+        width: 280px;
+    }
+    .descripcionServicio{
+        width: 280px;
+    }
+    .reserva{
+        margin: 32px 0px;
+        width: 280px;
+        padding: 12px 0px;
     }
 }
 
