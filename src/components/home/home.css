@@ -7,10 +7,12 @@
     background-size: cover;
 }
 
-.vector-down{
+.vector-down-container{
   position: absolute;
   top: 65%;
-  left: 48.45%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .regalate-el-cuidado{
@@ -19,6 +21,7 @@
 }
 .regalate-el-cuidado-title{
   font-size: 30px;
+  line-height: 35px;
 }
 .regalate-el-cuidado-text{
   font-size: 18px;
@@ -55,12 +58,22 @@
 
 .masajes-y-electrodos-btn{
   background-color: transparent;
-  border: 2px solid #f4c095;
+  border: 3px solid #f4c095;
   font-weight: 600;
   font-size: 18px;
   width: 90%;
   margin:2% 0 2% 5%;
   padding: 10px;
+}
+
+.podes-confiar{
+  font-family: 'Gilda Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #2A2A72;
 }
 
 .perfil-especialista-title{
@@ -111,8 +124,8 @@
     padding-bottom:10px;
   }
   .hablamos{
-    width: 70%;
-    margin: 65vh 15% 25vh 15%;
+    width: 50%;
+    margin: 65vh 25% 25vh 25%;
   }
   .wrapper {
     padding-top: 4vh;
@@ -124,6 +137,11 @@
   .masajes-y-electrodos-btn{
     width: 70%;
     margin:2% 0 2% 15%;
+  }
+  
+  .podes-confiar{
+    font-size: 48px;
+    line-height: 56px;
   }
   .reseñas-carousel-text{
     padding: 0 25%;
@@ -141,8 +159,8 @@
     padding-bottom:30px;
   }
   .hablamos{
-    width: 30%;
-    margin: 65vh 35% 25vh 35%;
+    width: 20%;
+    margin: 65vh 40% 25vh 40%;
   }
   .masajes-y-electrodos-image{
     display: none;
@@ -157,7 +175,8 @@
   .masajes-y-electrodos-btn{
     width: 25%;
     margin:2%;
-    font-size: 24px;
+    font-size: 30px;
+    padding: 0 38px;
   }
   .perfil-especialista-title{
     font-size: 48px;

@@ -12,14 +12,16 @@ export default function Home(){
       <div className="wrapper">
         {/* Titulo regalate el cuidado que mereces */}
         <div className="bg-negro-carbon regalate-el-cuidado">
-          <p className="font-gilda piel regalate-el-cuidado-title text-center">Regalate el cuidado que mereces</p>
-          <p className="text-light regalate-el-cuidado-text text-center">Masajes descontracturantes, masajes con piedras, sesiones de electrodos y mucho más.</p>
+          <p className="font-gilda piel regalate-el-cuidado-title text-center px-4 pt-3">Regalate el cuidado que mereces</p>
+          <p className="text-light regalate-el-cuidado-text text-center px-3 pb-2">Masajes descontracturantes, masajes con piedras, sesiones de electrodos y mucho más.</p>
         </div>
-        <IconArrowDown className="vector-down"/>
+        <div className="vector-down-container">
+          <IconArrowDown/>
+        </div>
         {/* Boton para hablar por whatsapp */}
         <a className="hablamos btn bg-azul-oceano d-flex" href="#">
           <p className="text-light w-100 hablamos-text">¿Hablamos?</p>
-          <IconWpp className="flex-shrink-1 align-self-center"/>
+          <IconWpp className="me-3"/>
         </a>
       </div>
       {/* Seccion masajes y electrodos */}
@@ -32,11 +34,12 @@ export default function Home(){
         alt="Tratamiento con electrodos"
       />
       {/* Descripcion de especialista */}
+      <p className="podes-confiar mt-5 p-2">Podés confiar en mis manos</p>
       <div className="bg-azul-oceano mt-5 mb-5 d-md-flex flex-wrap align-items-center">
-        <div className="text-center pt-3 pt-md-5 pb-md-5 col-md-6">
-          <img src={perfilEspecialista} alt="Foto de la especialista en masajes" className="" />
+        <div className="text-center pt-3 pt-md-5 pb-md-5 col-md-5 col-xl-5 justify-content-xl-end d-xl-flex">
+          <img src={perfilEspecialista} alt="Foto de la especialista en masajes" />
         </div>
-        <div className="col-md-6 col-xl-4 pt-5 pb-5 p-2">
+        <div className="col-md-6 col-xl-4 pt-5 pb-5 p-2 ">
           <p className="perfil-especialista-title text-center piel">¡Hola! soy Maru</p>
           <p className="perfil-especialista-text text-center text-light">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate.</p>
         </div>
