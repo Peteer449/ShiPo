@@ -4,14 +4,30 @@ import LogoDuracion from '../../images/icon-clock.svg';
 import LogoWpp from '../../images/icon-whatsapp.svg';
 
 export default function Servicios(props){
+    console.log(typeof(props.parrafoUno));
+    console.log(typeof(props.parrafoDos));
+    console.log(typeof(props.parrafoTres));
+    console.log(typeof(props.parrafoCuatro));
     return(
         <div className="servicios">  
             <img src={props.imagen} className='imagenServicio'/>
             <h3 className="tituloServicio">{props.titulo}</h3>
-            <p className="descripcionServicio">{props.parrafoUno}</p>
-            <p className="descripcionServicio">{props.parrafoDos}</p>
-            <p className="descripcionServicio">{props.parrafoTres}</p>
-            <p className="descripcionServicio">{props.parrafoCuatro}</p>
+            {
+                props.parrafoUno!== undefined &&
+                <p className="descripcionServicio">{props.parrafoUno}</p>
+            }
+            {
+                props.parrafoDos!== undefined &&
+                <p className="descripcionServicio">{props.parrafoUno}</p>
+            }
+            {
+                props.parrafoTres!== undefined &&
+                <p className="descripcionServicio">{props.parrafoUno}</p>
+            }
+            {
+                props.parrafoCuatro!== undefined &&
+                <p className="descripcionServicio">{props.parrafoUno}</p>
+            }
             <div className="duracionServicio">
                 <img src={LogoDuracion} alt='imagen de reloj' className="logoReloj"/>
                 <p className="duracion"><span>Duración:</span> de 45 a 75 min</p>

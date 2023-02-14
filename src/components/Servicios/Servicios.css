@@ -7,11 +7,10 @@
     padding: 16px;
 }
 .imagenServicio{
-    margin-top: 32px;
     width: 328px;
 }
 .tituloServicio{
-    margin: 32px 0px;
+    margin: 48px 0px;
     width: 328px;
     text-align: center;
     color: #2A2A72;
@@ -22,7 +21,7 @@
     margin: 0;
     text-align: center;
     width: 328px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-weight: 400;
     font-size: 18px;
     color: #1D1D1B;
@@ -33,7 +32,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 32px;
+    margin: 4px 0px;
 }
 .duracion{
     margin:0px;
@@ -46,12 +45,12 @@
 }
 .textoServicios{
     text-align: center;
-    margin: 0;
+    margin: 9px 0px 0px 0px;
     font-size: 18px;
     color: #1D1D1B;
 }
 .reserva{
-    margin: 32px;
+    margin: 32px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -74,10 +73,10 @@
         width: 814px;
     }
     .imagenServicio{
-        margin-top: 64px;
+        margin-top: 32px;
     }
     .tituloServicio{
-        margin: 64px 0px;
+        margin: 62px 0px;
         width: 814px;
         font-size: 48px;
     }
@@ -86,16 +85,17 @@
         font-size: 22px;
     }
     .duracion{
-        margin:0px;
-        padding: 8px;
         font-size: 22px;
-        color: #1D1D1B;
+    }
+    .duracionServicio{
+        margin: 36px 0px;
     }
     .textoServicios{
-        font-size: 24px;  
+        font-size: 24px;
+        margin: 20px 0px 0px 0px;  
     }
     .reserva{
-        margin: 64px;
+        margin: 64px 0;
     }
     .imagenServicio{
         width: 814px;
