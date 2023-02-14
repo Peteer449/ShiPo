@@ -18,15 +18,15 @@ export default function Servicios(props){
             }
             {
                 props.parrafoDos!== undefined &&
-                <p className="descripcionServicio">{props.parrafoUno}</p>
+                <p className="descripcionServicio">{props.parrafoDos}</p>
             }
             {
                 props.parrafoTres!== undefined &&
-                <p className="descripcionServicio">{props.parrafoUno}</p>
+                <p className="descripcionServicio">{props.parrafoTres}</p>
             }
             {
                 props.parrafoCuatro!== undefined &&
-                <p className="descripcionServicio">{props.parrafoUno}</p>
+                <p className="descripcionServicio">{props.parrafoCuatro}</p>
             }
             <div className="duracionServicio">
                 <img src={LogoDuracion} alt='imagen de reloj' className="logoReloj"/>
