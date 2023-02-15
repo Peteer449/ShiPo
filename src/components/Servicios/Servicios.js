@@ -2,6 +2,7 @@ import React from "react";
 import './Servicios.css';
 import LogoDuracion from '../../images/icon-clock.svg';
 import LogoWpp from '../../images/icon-whatsapp.svg';
+import { Link } from "react-router-dom";
 
 export default function Servicios(props){
     console.log(typeof(props.parrafoUno));
@@ -33,10 +34,10 @@ export default function Servicios(props){
                 <p className="duracion"><span>Duración:</span> de 45 a 75 min</p>
             </div>
             <p className="textoServicios">Apartá tu cita por WhatsApp.<br/>¡Te esperamos!</p>
-            <div className="reserva">
+            <a className="reserva" href="https://api.whatsapp.com/send?phone=5491167370832&text=Hola!%20Bienvenidos%20a%20ShiPo" target="_blank">
                 <h4>Quiero una cita</h4>
                 <img src={LogoWpp} alt='logo de whatsapp' className="logoWpp"/>
-            </div>
+            </a> 
         </div>
     )
 }
