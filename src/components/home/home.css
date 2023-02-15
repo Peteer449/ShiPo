@@ -1,0 +1,190 @@
+.wrapper {
+    height:100vh;
+    padding-top: 2vh;
+    background-image: url("./image-banner.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.vector-down-container{
+  position: absolute;
+  top: 65%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.regalate-el-cuidado{
+  opacity:0.95;
+  margin: 16px;
+}
+.regalate-el-cuidado-title{
+  font-size: 30px;
+  line-height: 35px;
+}
+.regalate-el-cuidado-text{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hablamos{
+  width: 90%;
+  margin: 55vh 5% 25vh 5%;
+  height: fit-content;
+}
+.hablamos-text{
+  height: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  align-self: center;
+}
+
+.masajes-y-electrodos-title{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.masajes-y-electrodos-image{
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 7%;
+}
+
+.masajes-y-electrodos-image-desktop{
+  display: none;
+}
+
+.masajes-y-electrodos-btn{
+  background-color: transparent;
+  border: 3px solid #f4c095;
+  font-weight: 600;
+  font-size: 18px;
+  width: 90%;
+  margin:2% 0 2% 5%;
+  padding: 10px;
+}
+
+.podes-confiar{
+  font-family: 'Gilda Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #2A2A72;
+}
+
+.perfil-especialista-title{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.perfil-especialista-text{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.reseñas-title{
+  font-size: 30px;
+}
+
+.reseñas-carousel{
+  background-color: #EFEAE1;
+  min-height: 250px;
+}
+
+.reseñas-carousel-title{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.reseñas-carousel-text{
+  font-size: 18px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("./vector-left.svg") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("./vector-right.svg") !important;
+}
+
+
+@media (min-width:768px){
+  .regalate-el-cuidado{
+    margin: 0 10%;
+  }
+  .regalate-el-cuidado-title{
+    padding-top:10px;
+  }
+  .regalate-el-cuidado-text{
+    padding-bottom:10px;
+  }
+  .hablamos{
+    width: 50%;
+    margin: 65vh 25% 25vh 25%;
+  }
+  .wrapper {
+    padding-top: 4vh;
+  }
+  .masajes-y-electrodos-image{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .masajes-y-electrodos-btn{
+    width: 70%;
+    margin:2% 0 2% 15%;
+  }
+  
+  .podes-confiar{
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .reseñas-carousel-text{
+    padding: 0 25%;
+  }
+}
+
+@media (min-width:1200px){
+  .regalate-el-cuidado{
+    margin: 0 15%;
+  }
+  .regalate-el-cuidado-title{
+    padding-top:30px;
+  }
+  .regalate-el-cuidado-text{
+    padding-bottom:30px;
+  }
+  .hablamos{
+    width: 20%;
+    margin: 65vh 40% 25vh 40%;
+  }
+  .masajes-y-electrodos-image{
+    display: none;
+  }
+  .masajes-y-electrodos-image-desktop{
+    display:block;
+  }
+  .masajes-y-electrodos-title{
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .masajes-y-electrodos-btn{
+    width: 25%;
+    margin:2%;
+    font-size: 30px;
+    padding: 0 38px;
+  }
+  .perfil-especialista-title{
+    font-size: 48px;
+  }
+  .perfil-especialista-text{
+    font-size: 20px;
+  }
+  .reseñas-title{
+    font-size: 48px;
+  }
+}
