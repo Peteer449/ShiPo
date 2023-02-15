@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./home.css"
-import perfilEspecialista from "./perfil-especialista.png"
-import { ReactComponent as IconWpp } from "./icon-whatsapp.svg"
-import { ReactComponent as IconArrowDown } from "./vector-down.svg"
+import perfilEspecialista from "../../images/perfil-especialista.png"
+import { ReactComponent as IconWpp } from "../../images/icon-whatsapp.svg"
+import { ReactComponent as IconArrowDown } from "../../images/vector-down.svg"
 import MasajesYElectrodos from "./MasajesYElectrodos.jsx"
 import Carousel from "./Carousel.jsx"
 export default function Home(){

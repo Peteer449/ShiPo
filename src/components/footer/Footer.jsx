@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import {ReactComponent as IconFacebook} from "./icon-facebook.svg"
-import {ReactComponent as IconTikTok} from "./icon-tiktok.svg"
-import {ReactComponent as IconInstagram} from "./icon-instagram.svg"
-import {ReactComponent as Logo} from "./logo-shipo-footer.svg"
+import {ReactComponent as IconFacebook} from "../../images/icon-facebook.svg"
+import {ReactComponent as IconTikTok} from "../../images/icon-tiktok.svg"
+import {ReactComponent as IconInstagram} from "../../images/icon-instagram.svg"
+import {ReactComponent as Logo} from "../../images/logo-shipo-footer.svg"
 import "./footer.css"
 
 export default function Footer(){

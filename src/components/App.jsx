@@ -12,6 +12,8 @@ import Piedras from '../images/masajes-descontracturantes-piedras-calientes.png'
 import Descontracturantes from '../images/masajes-descontracturantes.png';
 import Reductores from '../images/masajes-reductores-electrodos.png';
 import Electrodos from '../images/sesiones-de-electrodos.png';
+import Home from "./home/Home.jsx"
+import Footer from "./footer/Footer.jsx"
 
 function App() {
   const propiedades=[
@@ -71,13 +73,16 @@ function App() {
       <BrowserRouter>
         <Navegation/>
         <Routes>
+        <Route path="/" element={<Home/>}/>
           {
+            
             propiedades.map(propiedad=>(
               <Route path={propiedad.url} element={<Servicios imagen={propiedad.imagen} titulo={propiedad.titulo} 
               parrafoUno={propiedad.textoUno} parrafoDos={propiedad.textoDos} parrafoTres={propiedad.textoTres} parrafoCuatro={propiedad.textoCuatro}/>}/>
             ))
           }
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );

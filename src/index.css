@@ -1,26 +1,26 @@
 .azul-oceano{
-  color: #2a2a72;
+  color: #2a2a72 !important;
 }
 .bg-azul-oceano{
-  background-color: #2a2a72;
+  background-color: #2a2a72 !important;
 }
 .piel{
-  color: #f4c095;
+  color: #f4c095 !important;
 }
 .bg-piel{
-  background-color: #f4c095;
+  background-color: #f4c095 !important;
 }
 .blanco-opaco{
-  color: #efeae1;
+  color: #efeae1 !important;
 }
 .bg-blanco-opaco{
-  background-color: #efeae1;
+  background-color: #efeae1 !important;
 }
 .negro-carbon{
-  color: #1d1d1b;
+  color: #1d1d1b !important;
 }
 .bg-negro-carbon{
-  background-color: #1d1d1b;
+  background-color: #1d1d1b !important;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');

@@ -18,7 +18,7 @@ export default function Navegation(){
   const handleClose = () => setMenuOpen(false)
   return(
     <>
-      <Navbar key={'false'} expand={'false'} className="mb-3 barraNav">
+      <Navbar key={'false'} expand={'false'} className=" barraNav">
         <Container fluid>
           <Link to='/' className="d-md-block d-lg-none">
             <Navbar.Brand ><img src={Logo} alt='logo de Shipo' className="logo-mobile"/></Navbar.Brand>
