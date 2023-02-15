@@ -1,0 +1,82 @@
+.navbar-light .navbar-toggler {
+    border-color:#2A2A72;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../../images/icon-menu.svg");
+}
+.btn-close{
+    background-image:url("../../images/icon-close.svg") ;
+}
+.barraNav{
+    background-color: #2A2A72;
+}
+.barraNavDerecha{
+    background-color: #1D1D1B;
+}
+.navbar-nav{
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.dropdown-menu{
+    background-color: #1D1D1B;
+}
+.tituloNav{
+    color: #FFFF;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+    margin: 16px;
+}
+.linkColor{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+    color: #F4C095;
+    text-decoration: none;
+    margin: 16px;
+}
+.linkColor:hover{
+    color: #37C7DB;
+}
+.linkBlanco{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFF;
+}
+.linkBlanco:hover{
+    color:#37C7DB ;
+}
+.dropdown-item{
+    text-align: right;
+    padding: 16px 0;
+    
+}
+.dropdown-item:hover{
+    background-color: #1D1D1B;
+}
+.linkUbicacion{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFF;
+    margin: 32px 16px 0 0;
+}
+.dropdown-divider{
+    color:#F4C095;
+    width: 200px;
+    margin-top: 16px;
+}
+.logo-desktop{
+    margin-left: 80px;
+}
+.offcanvasBody{
+    width: 268px;
+}
+@media only screen and (min-width:992px){
+    .offcanvasBody{
+        width: 350px;
+    } 
+}
