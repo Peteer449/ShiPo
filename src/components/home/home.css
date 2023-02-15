@@ -32,6 +32,10 @@
   margin: 55vh 5% 25vh 5%;
   height: fit-content;
 }
+.hablamos:hover{
+  background-color: #1B1B69 !important;
+}
+
 .hablamos-text{
   height: 10px;
   font-size: 18px;

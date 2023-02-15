@@ -9,13 +9,8 @@ export default function Footer(){
   return(
     <footer className="bg-negro-carbon d-flex flex-wrap align-items-center justify-content-center pt-4 pb-5">
       <Logo/>
-      <p className="col-12 text-center text-light direccion">Dirección: Lorem ipsum dolor sit
-ipsum dolor sit</p>
-      <ul className="nav col-md-4 justify-content-center list-unstyled d-flex">
-        <li className="ms-3"><a className="text-light" href="#"><IconFacebook/></a></li>
-        <li className="ms-3"><a className="text-light" href="#"><IconTikTok/></a></li>
-        <li className="ms-3"><a className="text-light" href="#"><IconInstagram/></a></li>
-      </ul>
+      <p className="col-12 text-center text-light direccion">Dirección: Lorem ipsum dolor sit ipsum dolor sit</p>
+      <div className="ms-3"><a className="text-light" href="https://www.instagram.com/shipo.relax/" target="_blank"><IconInstagram/></a></div>
     </footer>
   )
 }

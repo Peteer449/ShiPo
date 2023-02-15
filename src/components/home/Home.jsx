@@ -1,10 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./home.css"
-import perfilEspecialista from "../../images/perfil-especialista.png"
-import { ReactComponent as IconWpp } from "../../images/icon-whatsapp.svg"
-import { ReactComponent as IconArrowDown } from "../../images/vector-down.svg"
-import MasajesYElectrodos from "./MasajesYElectrodos.jsx"
-import Carousel from "./Carousel.jsx"
+import perfilEspecialista from "../../images/perfil-especialista.png";
+import { ReactComponent as IconWpp } from "../../images/icon-whatsapp.svg";
+import { ReactComponent as IconArrowDown } from "../../images/vector-down.svg";
+import MasajesYElectrodos from "./MasajesYElectrodos.jsx";
+import Carousel from "./Carousel.jsx";
+import 'animate.css';
+
 export default function Home(){
   return(
     <div>
@@ -15,11 +17,11 @@ export default function Home(){
           <p className="font-gilda piel regalate-el-cuidado-title text-center px-4 pt-3">Regalate el cuidado que mereces</p>
           <p className="text-light regalate-el-cuidado-text text-center px-3 pb-2">Masajes descontracturantes, masajes con piedras, sesiones de electrodos y mucho más.</p>
         </div>
-        <div className="vector-down-container">
+        <div className="vector-down-container animate__animated animate__fadeInDown animate__infinite">
           <IconArrowDown/>
         </div>
         {/* Boton para hablar por whatsapp */}
-        <a className="hablamos btn bg-azul-oceano d-flex" href="#">
+        <a className="hablamos btn bg-azul-oceano d-flex" href="https://api.whatsapp.com/send?phone=5491167370832" target="_blank">
           <p className="text-light w-100 hablamos-text">¿Hablamos?</p>
           <IconWpp className="me-3"/>
         </a>

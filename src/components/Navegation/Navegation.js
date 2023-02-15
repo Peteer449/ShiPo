@@ -78,8 +78,6 @@ export default function Navegation(){
                 <NavLink onClick={toggleMenu} to='/belleza_manos_pies' className='linkColor'>Belleza de manos <br/>y pies</NavLink>
                 <NavLink onClick={toggleMenu} to='/esmalte_semipermanente' className='linkColor'>Esmalte <br/>semipermanente</NavLink>
                 <NavLink onClick={toggleMenu} to='/depilacion_laser_definitiva' className='linkColor'>Depilación láser <br/>definitiva</NavLink>
-                <NavDropdown.Divider/>
-                <NavLink onClick={toggleMenu} className='linkUbicacion'>Ubicación</NavLink>
               </Nav>  
             </Offcanvas.Body>
           </Navbar.Offcanvas>

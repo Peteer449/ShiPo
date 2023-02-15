@@ -34,7 +34,7 @@ export default function Servicios(props){
                 <p className="duracion"><span>Duración:</span> de 45 a 75 min</p>
             </div>
             <p className="textoServicios">Apartá tu cita por WhatsApp.<br/>¡Te esperamos!</p>
-            <a className="reserva" href="https://api.whatsapp.com/send?phone=5491167370832&text=Hola!%20Bienvenidos%20a%20ShiPo" target="_blank">
+            <a className="reserva" href="https://api.whatsapp.com/send?phone=5491167370832" target="_blank">
                 <h4>Quiero una cita</h4>
                 <img src={LogoWpp} alt='logo de whatsapp' className="logoWpp"/>
             </a> 

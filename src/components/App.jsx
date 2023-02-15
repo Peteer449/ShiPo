@@ -11,7 +11,7 @@ import Maderoterapia from '../images/masajes-con-maderoterapia.png';
 import Piedras from '../images/masajes-descontracturantes-piedras-calientes.png';
 import Descontracturantes from '../images/masajes-descontracturantes.png';
 import Reductores from '../images/masajes-reductores-electrodos.png';
-import Electrodos from '../images/sesiones-de-electrodos.png';
+import Electrodos from '../images/image-sesiones-de-electrodos.png';
 import Home from "./home/Home.jsx"
 import Footer from "./footer/Footer.jsx"
 
@@ -48,8 +48,8 @@ function App() {
     textoTres:undefined,
     textoCuatro:undefined},
     {url:'/drenaje_linfatico',imagen:DrenajeLinfatico,titulo:"Drenaje linfático",
-    textoUno:"lorem ipsum",
-    textoDos:undefined,
+    textoUno:"Es un tipo de masaje que tiene como propósito eliminar la acumulación de líquidos y de toxinas. También mejora el sistema inmune y aumenta el metabolismo.",
+    textoDos:"Este tratamiento es recomendable para pacientes con problemas de retención de líquidos, edemas traumáticos, linfedemas, complicaciones linfáticas derivadas de una cirugía y estética de la piel.",
     textoTres:undefined,
     textoCuatro:undefined},
     {url:'/belleza_manos_pies',imagen:ManosPies,titulo:"Belleza de manos y pies",
@@ -63,8 +63,8 @@ function App() {
     textoTres:undefined,
     textoCuatro:undefined},
     {url:'/depilacion_laser_definitiva',imagen:Laser,titulo:"Depilación láser definitiva",
-    textoUno:"lorem ipsum",
-    textoDos:undefined,
+    textoUno:"¿Querés lucir una piel espectacular? Con la depilación láser definitiva tu piel quedará como si acabas de nacer.",
+    textoDos:"Este tratamiento convierte la melanina del pelo en calor quemando la matriz para que el pelo no vuelva a salir. El resultado varía entre 8 a 12 meses con una efectividad del 80% y 90%, es decir un mínimo de vello residual, muy claro y fino.",
     textoTres:undefined,
     textoCuatro:undefined}
   ];

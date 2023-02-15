@@ -1,10 +1,10 @@
 import MasajesYElectrodosLinks from "./MasajesYElectrodosLinks"
-import imageMasajes from "../../images/image-masajes-descontracturantes.png"
+import imageMasajes from "../../images/masajes-descontracturantes.png"
 import imageElectrodos from "../../images/image-sesiones-de-electrodos.png"
-import imageLevantamiento from "../../images/image-levantamiento-electrodos.png"
-import imageMaderoterapia from "../../images/image-masajes-con-maderoterapia.png"
-import imagePiedras from "../../images/image-masajes-descontracturantes-piedras-calientes.png"
-import imageReductores from "../../images/image-masajes-reductores-electrodos.png"
+import imageLevantamiento from "../../images/levantamiento-de-glúteos-electrodos.png"
+import imageMaderoterapia from "../../images/masajes-con-maderoterapia.png"
+import imagePiedras from "../../images/masajes-descontracturantes-piedras-calientes.png"
+import imageReductores from "../../images/masajes-reductores-electrodos.png"
 
 
 export default function MasajesYElectrodos({title,alt}){
