@@ -8,6 +8,7 @@
 }
 .imagenServicio{
     width: 328px;
+    margin-top: 16px;
 }
 .tituloServicio{
     margin: 48px 0px;
@@ -77,7 +78,7 @@
         width: 814px;
     }
     .imagenServicio{
-        margin-top: 32px;
+        margin-top: 48px;
     }
     .tituloServicio{
         margin: 62px 0px;

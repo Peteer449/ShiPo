@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position:center;
   background-size: cover;
+  padding-top: 16px;
 }
 
 .vector-down-container{
@@ -16,7 +17,7 @@
 
 .regalate-el-cuidado{
   opacity:0.95;
-  margin: 16px;
+  margin: 0 16px;
 }
 .regalate-el-cuidado-title{
   font-size: 30px;
@@ -47,6 +48,7 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 35px;
+  margin-bottom: 1.5rem;
 }
 
 .masajes-y-electrodos-image{
@@ -135,11 +137,16 @@
     margin: 65vh 25% 25vh 25%;
   }
   .wrapper {
-    padding-top: 4vh;
+    padding-top: 64px;
   }
   .masajes-y-electrodos-image{
     width: 50%;
     margin-left: 25%;
+  }
+  .masajes-y-electrodos-title{
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 2rem;
   }
   .masajes-y-electrodos-btn{
     width: 70%;
@@ -152,6 +159,9 @@
   }
   .reseñas-carousel-text{
     padding: 0 25%;
+  }
+  .reseñas-title{
+    margin-bottom: 32px;
   }
 }
 
@@ -175,10 +185,7 @@
   .masajes-y-electrodos-image-desktop{
     display:block;
   }
-  .masajes-y-electrodos-title{
-    font-size: 48px;
-    line-height: 56px;
-  }
+  
   .masajes-y-electrodos-btn{
     width: 25%;
     margin:2%;

@@ -10,7 +10,7 @@ import imageReductores from "../../images/masajes-reductores-electrodos.png"
 export default function MasajesYElectrodos({title,alt}){
   if(title==="Masajes"){
     return(
-      <div className="mt-5">
+      <div className="mt-4">
         <p className="azul-oceano font-gilda masajes-y-electrodos-title text-center">{title}</p>
         <img src={imageMasajes} alt={alt} className="masajes-y-electrodos-image"/>
         <MasajesYElectrodosLinks text="Masajes descontracturantes" link="./masajes/descontracturantes" image={imageMasajes}/>
@@ -20,7 +20,7 @@ export default function MasajesYElectrodos({title,alt}){
     )
   }else{
     return(
-      <div className="mt-5">
+      <div className="mt-4">
         <p className="azul-oceano font-gilda masajes-y-electrodos-title text-center">{title}</p>
         <img src={imageElectrodos} alt={alt} className="masajes-y-electrodos-image"/>
         <MasajesYElectrodosLinks text="Sesiones de electrodos" link="./electrodos/sesiones" image={imageElectrodos}/>

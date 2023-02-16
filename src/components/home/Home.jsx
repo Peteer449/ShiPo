@@ -36,7 +36,7 @@ export default function Home(){
         alt="Tratamiento con electrodos"
       />
       {/* Descripcion de especialista */}
-      <p className="podes-confiar mt-5 p-2">Podés confiar en mis manos</p>
+      <p className="podes-confiar mt-5">Podés confiar en mis manos</p>
       <div className="bg-azul-oceano mt-5 mb-5 d-md-flex flex-wrap align-items-center">
         <div className="text-center pt-3 pt-md-5 pb-md-5 col-md-5 col-xl-5 justify-content-xl-end d-xl-flex">
           <img src={perfilEspecialista} alt="Foto de la especialista en masajes" />
