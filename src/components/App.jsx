@@ -28,7 +28,7 @@ function App() {
     textoTres:'¿Te animás a probarlo?',
     textoCuatro:undefined},
     {url:'/masajes/maderoterapia',imagen:Maderoterapia,titulo:"Masajes con maderoterapia",
-    textoUno:"Es una terapia natural que se trata de estimular el cuerpo a través de una técnica de masaje con herramientas de madera. Se realizan movimientos y presión en puntos del cuerpo con el fin de provocar una reacción de bienestar, reducir los niveles de estrés, y aliviar los dolores musculares y articulares.",
+    textoUno:"Es una terapia natural que trata de estimular el cuerpo a través de una técnica de masaje con herramientas de madera. Se realizan movimientos y presión en puntos del cuerpo con el fin de provocar una reacción de bienestar, reducir los niveles de estrés, y aliviar los dolores musculares y articulares.",
     textoDos:undefined,
     textoTres:undefined,
     textoCuatro:undefined},

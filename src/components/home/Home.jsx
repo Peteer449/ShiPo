@@ -41,9 +41,11 @@ export default function Home(){
         <div className="text-center pt-3 pt-md-5 pb-md-5 col-md-5 col-xl-5 justify-content-xl-end d-xl-flex">
           <img src={perfilEspecialista} alt="Foto de la especialista en masajes" />
         </div>
-        <div className="col-md-6 col-xl-4 pt-5 pb-5 p-2 ">
+        <div className="col-md-6 col-xl-4 pt-5 pb-5 p-4 ">
           <p className="perfil-especialista-title text-center piel">¡Hola! soy Maru</p>
-          <p className="perfil-especialista-text text-center text-light">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate.</p>
+          <p className="perfil-especialista-text text-center text-light">Esteticista certificada en <span className="piel">Dayloplas</span>. Tengo más de 5 años ayudando a las personas a sentirse más jóvenes y hermosas. Mi amor por los masajes y la estética comenzó como un hobby, hasta que decidí aprender las maniobras adecuadas para hacerlo de forma profesional. Mis especialidades son los <span className="piel">masajes con maderoterapia y electrodos</span>.</p>
+          <p className="perfil-especialista-text text-center text-light">Y no queda ahí, mi gusto por hacerte lucir radiante me llevó aprender a realizar <span className="piel">uñas en acrílico y semipermanente</span>, y además a fabricar hermosas miradas con <span className="piel">pestañas pelo a pelo</span>.</p>
+          <p className="perfil-especialista-text text-center piel">Podés confiar en mis manos, vos sentite relax.</p>
         </div>
       </div>
       {/* Reseñas clientes */}
